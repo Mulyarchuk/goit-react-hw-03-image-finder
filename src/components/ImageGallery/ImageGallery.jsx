@@ -18,7 +18,7 @@ export const ImageGallery =({pictures, onModal}) => {
     )
 }
 ImageGallery.propTypes={
-    onClick: PropTypes.func,
+    onModal: PropTypes.func.isRequired,
     photos: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.number.isRequired,

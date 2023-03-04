@@ -12,6 +12,7 @@ export class Searchbar extends React.Component{
 static propTypes = {
     onSubmit: PropTypes.func.isRequired,
     };
+    
 handleSubmit=e=>{
 e.preventDefault();
 if(this.state.searchQuery.trim()===``){
